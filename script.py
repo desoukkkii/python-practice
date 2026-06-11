@@ -1,5 +1,4 @@
-i = 10
+num = [10, 20, 30, 40, 50]
 
-while i >= 1:
+for i in num:
   print(i)
-  i-=1
