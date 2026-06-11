@@ -1,4 +1,2 @@
-name="Desouki"
-age=20
-
-print(f"My name is {name} and I'm {age}")
+name = input("Enter your name: ")
+print(f"Welcome {name}")
