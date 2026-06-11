@@ -1,7 +1,8 @@
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
+n = float(input("Enter a number: "))
 
-print("Sum =", a + b)
-print("Sum =", a - b)
-print("Sum =", a * b)
-print("Sum =", a / b)
+if n > 0:
+  print("Positive")
+elif n < 0:
+  print("Negative")
+else:
+  print("Zero")
