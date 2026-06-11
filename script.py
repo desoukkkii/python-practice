@@ -1,4 +1,6 @@
-num = [10, 20, 30, 40, 50]
+numbers = []
 
-for i in num:
-  print(i)
+for _ in range(5):
+    numbers.append(int(input()))
+
+print(max(numbers))
