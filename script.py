@@ -1,6 +1,4 @@
-numbers = []
+def square(x):
+  return x * x
 
-for _ in range(5):
-    numbers.append(int(input()))
-
-print(max(numbers))
+print(square(5))
